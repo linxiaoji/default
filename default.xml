@@ -11,6 +11,17 @@
   <project path="build" name="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="misc" name="misc" >
+	<movefile src="makeMtk" dest="makeMtk" />
+	<movefile src="makeMtk.ini" dest="makeMtk.ini" />
+	<movefile src="mbldenv.sh" dest="mbldenv.sh" />
+	<movefile src="mk" dest="mk" />
+	<movefile src="zzz" dest="zzz" />
+	<movefile src="NOTICE" dest="NOTICE" />
+	<movefile src="mt6592_kk_defconfig" dest="mt6592_kk_defconfig" />
+	<movefile src="mt6592_wiko_highway_kk_defconfig" dest="mt6592_wiko_highway_kk_defconfig" />
+	<movefile src="README.md" dest="README.md" />
+  </project>
 <project path="abi/cpp" name="platform/abi/cpp" />
 <project path="bionic" name="platform/bionic" />
 <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
